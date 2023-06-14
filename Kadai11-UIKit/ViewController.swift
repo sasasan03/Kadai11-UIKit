@@ -13,12 +13,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     @IBAction func exit(segue:  UIStoryboardSegue){
             //🟨中身は何も書かない
         }
-    
+    @IBAction func selectedExit(segue:  UIStoryboardSegue){
+            
+        }
 }
 
 
