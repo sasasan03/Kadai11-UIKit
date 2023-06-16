@@ -104,13 +104,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PrefectureCell" rowHeight="39" id="HPQ-OQ-4yH">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="39"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PrefectureCell" rowHeight="52" id="HPQ-OQ-4yH">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="52"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HPQ-OQ-4yH" id="QH1-UN-oN1" customClass="PrefecturesViewConttoller">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="39"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="52"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="SN9-wr-ljT" kind="unwind" identifier="selectedExit" unwindAction="selectedExitWithSegue:" id="uZd-Bw-bVR"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

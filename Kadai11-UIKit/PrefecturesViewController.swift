@@ -13,7 +13,8 @@ class PrefecturesViewController:UIViewController {
     
     @IBOutlet weak var prefectureTableView: UITableView!
     
-    private(set) var  selectedPrefecture: String?
+    //選ばれた都道府県を格納するためのプロパティ
+    private(set) var selectedPrefecture: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,7 @@ extension PrefecturesViewController: UITableViewDelegate, UITableViewDataSource 
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        print(">>>cellForRow",indexPath.row)
         let cell = tableView.dequeueReusableCell(withIdentifier: "PrefectureCell", for: indexPath)
         var content = cell.defaultContentConfiguration()
         content.text = prefectures.name[indexPath.row]
@@ -36,8 +38,11 @@ extension PrefecturesViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // TODO: タップしたcellから値を取得して、親Viewへ値を渡したい。
+//        print(">>>didSelect",indexPath.row)
+        selectedPrefecture = prefectures.name[indexPath.row]
+        performSegue(withIdentifier: "exitSelected", sender: nil)
         tableView.deselectRow(at: indexPath, animated: true)
-        
     }
 
 }
