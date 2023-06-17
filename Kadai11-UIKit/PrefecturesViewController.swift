@@ -39,6 +39,7 @@ extension PrefecturesViewController: UITableViewDelegate, UITableViewDataSource 
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // TODO: タップしたcellから値を取得して、親Viewへ値を渡したい。
+        //🟥exitSelectedというidentifierはない。
 //        print(">>>didSelect",indexPath.row)
         selectedPrefecture = prefectures.name[indexPath.row]
         performSegue(withIdentifier: "exitSelected", sender: nil)

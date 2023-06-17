@@ -94,7 +94,7 @@
         <!--Prefectures View Controller-->
         <scene sceneID="J13-XP-wDT">
             <objects>
-                <viewController id="teZ-xU-bOr" customClass="PrefecturesViewController" customModule="Kadai11_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="prefectureTabelView" id="teZ-xU-bOr" customClass="PrefecturesViewController" customModule="Kadai11_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GmY-hm-r9o">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,7 +112,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="SN9-wr-ljT" kind="unwind" identifier="selectedExit" unwindAction="selectedExitWithSegue:" id="uZd-Bw-bVR"/>
+                                            <segue destination="SN9-wr-ljT" kind="unwind" identifier="exitSelected" unwindAction="selectedExitWithSegue:" id="uZd-Bw-bVR"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -125,7 +125,7 @@
                     <navigationItem key="navigationItem" id="4AM-FY-IYp">
                         <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="MpQ-jr-MRC">
                             <connections>
-                                <segue destination="SN9-wr-ljT" kind="unwind" unwindAction="exitWithSegue:" id="hl3-1K-sQy"/>
+                                <segue destination="SN9-wr-ljT" kind="unwind" identifier="" unwindAction="exitWithSegue:" id="hl3-1K-sQy"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
