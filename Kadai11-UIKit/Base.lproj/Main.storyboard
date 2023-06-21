@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="72" translatesAutoresizingMaskIntoConstraints="NO" id="yC0-be-wCa">
-                                <rect key="frame" x="20" y="89" width="353" height="34.333333333333343"/>
+                                <rect key="frame" x="20" y="89" width="352" height="34.333333333333343"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="都道府県" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoF-3K-TdV">
-                                        <rect key="frame" x="0.0" y="0.0" width="69.666666666666671" height="34.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="69.333333333333329" height="34.333333333333336"/>
                                         <color key="backgroundColor" red="0.12633850520000001" green="0.91261472899999996" blue="0.98147945800000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="Nwu-25-GK9"/>
@@ -30,14 +30,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJV-9i-gvo">
-                                        <rect key="frame" x="141.66666666666666" y="0.0" width="69.666666666666657" height="34.333333333333336"/>
+                                        <rect key="frame" x="141.33333333333334" y="0.0" width="69.333333333333343" height="34.333333333333336"/>
                                         <color key="backgroundColor" red="0.24022071680000001" green="1" blue="0.0" alpha="0.4926658163" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFC-Y1-MJ0">
-                                        <rect key="frame" x="283.33333333333331" y="0.0" width="69.666666666666686" height="34.333333333333336"/>
+                                        <rect key="frame" x="282.66666666666669" y="0.0" width="69.333333333333314" height="34.333333333333336"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="変更"/>
@@ -89,7 +89,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4a4-YA-oKK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1820.6106870229007" y="-22.535211267605636"/>
+            <point key="canvasLocation" x="897" y="675"/>
         </scene>
         <!--Prefectures View Controller-->
         <scene sceneID="J13-XP-wDT">
@@ -137,7 +137,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYo-MV-zg2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="SN9-wr-ljT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2591.6030534351144" y="-23.239436619718312"/>
+            <point key="canvasLocation" x="1827" y="675"/>
         </scene>
     </scenes>
     <resources>
