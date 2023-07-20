@@ -1,0 +1,6 @@
+framework module Pods_Kadai11_UIKit_Kadai11_UIKitUITests {
+  umbrella header "Pods-Kadai11-UIKit-Kadai11-UIKitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

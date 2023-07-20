@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35CA6449FABFC46CA7536614 /* Pods_Kadai11_UIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614797EC4A63422D08A964EC /* Pods_Kadai11_UIKitTests.framework */; };
 		69555C2F2A37035E00AB3E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69555C2E2A37035E00AB3E23 /* AppDelegate.swift */; };
 		69555C312A37035E00AB3E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69555C302A37035E00AB3E23 /* SceneDelegate.swift */; };
 		69555C332A37035E00AB3E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69555C322A37035E00AB3E23 /* ViewController.swift */; };
@@ -18,6 +19,8 @@
 		69555C522A37035F00AB3E23 /* Kadai11_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69555C512A37035F00AB3E23 /* Kadai11_UIKitUITestsLaunchTests.swift */; };
 		69555C5F2A37079600AB3E23 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69555C5E2A37079600AB3E23 /* Prefectures.swift */; };
 		69555C9D2A38750E00AB3E23 /* PrefecturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69555C9C2A38750E00AB3E23 /* PrefecturesViewController.swift */; };
+		70C229F08F9F1005BDF57E87 /* Pods_Kadai11_UIKit_Kadai11_UIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59688E8BC6B75CB29E85D014 /* Pods_Kadai11_UIKit_Kadai11_UIKitUITests.framework */; };
+		76676605EEF28ABC5BB5F71C /* Pods_Kadai11_UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A834FA33F4E57631DA4382F0 /* Pods_Kadai11_UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A27996547CCDBDF3D068F0 /* Pods-Kadai11-UIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai11-UIKit.debug.xcconfig"; path = "Target Support Files/Pods-Kadai11-UIKit/Pods-Kadai11-UIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		121092A92928158F024242D8 /* Pods-Kadai11-UIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai11-UIKit.release.xcconfig"; path = "Target Support Files/Pods-Kadai11-UIKit/Pods-Kadai11-UIKit.release.xcconfig"; sourceTree = "<group>"; };
+		4FBE97332A46096CA518F950 /* Pods-Kadai11-UIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai11-UIKitTests.release.xcconfig"; path = "Target Support Files/Pods-Kadai11-UIKitTests/Pods-Kadai11-UIKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		59688E8BC6B75CB29E85D014 /* Pods_Kadai11_UIKit_Kadai11_UIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai11_UIKit_Kadai11_UIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		614797EC4A63422D08A964EC /* Pods_Kadai11_UIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai11_UIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		668951A90B611EF41567245A /* Pods-Kadai11-UIKit-Kadai11-UIKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai11-UIKit-Kadai11-UIKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kadai11-UIKit-Kadai11-UIKitUITests/Pods-Kadai11-UIKit-Kadai11-UIKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		69555C2B2A37035E00AB3E23 /* Kadai11-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai11-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69555C2E2A37035E00AB3E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69555C302A37035E00AB3E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +62,9 @@
 		69555C512A37035F00AB3E23 /* Kadai11_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai11_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		69555C5E2A37079600AB3E23 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
 		69555C9C2A38750E00AB3E23 /* PrefecturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesViewController.swift; sourceTree = "<group>"; };
+		7F15B30C292069FA466BDC70 /* Pods-Kadai11-UIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai11-UIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-Kadai11-UIKitTests/Pods-Kadai11-UIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A834FA33F4E57631DA4382F0 /* Pods_Kadai11_UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai11_UIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66E252E49E854AC57F9C77A /* Pods-Kadai11-UIKit-Kadai11-UIKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai11-UIKit-Kadai11-UIKitUITests.release.xcconfig"; path = "Target Support Files/Pods-Kadai11-UIKit-Kadai11-UIKitUITests/Pods-Kadai11-UIKit-Kadai11-UIKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76676605EEF28ABC5BB5F71C /* Pods_Kadai11_UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CA6449FABFC46CA7536614 /* Pods_Kadai11_UIKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C229F08F9F1005BDF57E87 /* Pods_Kadai11_UIKit_Kadai11_UIKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0824E492AEAB3777135590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A834FA33F4E57631DA4382F0 /* Pods_Kadai11_UIKit.framework */,
+				59688E8BC6B75CB29E85D014 /* Pods_Kadai11_UIKit_Kadai11_UIKitUITests.framework */,
+				614797EC4A63422D08A964EC /* Pods_Kadai11_UIKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		69555C222A37035E00AB3E23 = {
 			isa = PBXGroup;
 			children = (
@@ -87,8 +112,11 @@
 				69555C442A37035F00AB3E23 /* Kadai11-UIKitTests */,
 				69555C4E2A37035F00AB3E23 /* Kadai11-UIKitUITests */,
 				69555C2C2A37035E00AB3E23 /* Products */,
+				BC882F5C0F905F813B2137EA /* Pods */,
+				4F0824E492AEAB3777135590 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		69555C2C2A37035E00AB3E23 /* Products */ = {
 			isa = PBXGroup;
@@ -133,6 +161,19 @@
 			path = "Kadai11-UIKitUITests";
 			sourceTree = "<group>";
 		};
+		BC882F5C0F905F813B2137EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05A27996547CCDBDF3D068F0 /* Pods-Kadai11-UIKit.debug.xcconfig */,
+				121092A92928158F024242D8 /* Pods-Kadai11-UIKit.release.xcconfig */,
+				668951A90B611EF41567245A /* Pods-Kadai11-UIKit-Kadai11-UIKitUITests.debug.xcconfig */,
+				D66E252E49E854AC57F9C77A /* Pods-Kadai11-UIKit-Kadai11-UIKitUITests.release.xcconfig */,
+				7F15B30C292069FA466BDC70 /* Pods-Kadai11-UIKitTests.debug.xcconfig */,
+				4FBE97332A46096CA518F950 /* Pods-Kadai11-UIKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69555C552A37035F00AB3E23 /* Build configuration list for PBXNativeTarget "Kadai11-UIKit" */;
 			buildPhases = (
+				7B5F74A4A52ED20A5FD50D7D /* [CP] Check Pods Manifest.lock */,
 				69555C272A37035E00AB3E23 /* Sources */,
 				69555C282A37035E00AB3E23 /* Frameworks */,
 				69555C292A37035E00AB3E23 /* Resources */,
+				69BB3E662A691B9C004C3CD2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -157,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69555C582A37035F00AB3E23 /* Build configuration list for PBXNativeTarget "Kadai11-UIKitTests" */;
 			buildPhases = (
+				AF53099A9342CA6E1F64E4B7 /* [CP] Check Pods Manifest.lock */,
 				69555C3D2A37035F00AB3E23 /* Sources */,
 				69555C3E2A37035F00AB3E23 /* Frameworks */,
 				69555C3F2A37035F00AB3E23 /* Resources */,
@@ -175,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69555C5B2A37035F00AB3E23 /* Build configuration list for PBXNativeTarget "Kadai11-UIKitUITests" */;
 			buildPhases = (
+				E0D29A5A6FCF3B8ECDEC62AD /* [CP] Check Pods Manifest.lock */,
 				69555C472A37035F00AB3E23 /* Sources */,
 				69555C482A37035F00AB3E23 /* Frameworks */,
 				69555C492A37035F00AB3E23 /* Resources */,
@@ -258,6 +303,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69BB3E662A691B9C004C3CD2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		7B5F74A4A52ED20A5FD50D7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai11-UIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF53099A9342CA6E1F64E4B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai11-UIKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D29A5A6FCF3B8ECDEC62AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai11-UIKit-Kadai11-UIKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69555C272A37035E00AB3E23 /* Sources */ = {
@@ -440,6 +571,7 @@
 		};
 		69555C562A37035F00AB3E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A27996547CCDBDF3D068F0 /* Pods-Kadai11-UIKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +600,7 @@
 		};
 		69555C572A37035F00AB3E23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121092A92928158F024242D8 /* Pods-Kadai11-UIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +629,7 @@
 		};
 		69555C592A37035F00AB3E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F15B30C292069FA466BDC70 /* Pods-Kadai11-UIKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +650,7 @@
 		};
 		69555C5A2A37035F00AB3E23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBE97332A46096CA518F950 /* Pods-Kadai11-UIKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +671,7 @@
 		};
 		69555C5C2A37035F00AB3E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668951A90B611EF41567245A /* Pods-Kadai11-UIKit-Kadai11-UIKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +690,7 @@
 		};
 		69555C5D2A37035F00AB3E23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66E252E49E854AC57F9C77A /* Pods-Kadai11-UIKit-Kadai11-UIKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
